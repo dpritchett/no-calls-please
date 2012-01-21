@@ -9,6 +9,6 @@ end
 
 get '/' do
     """
-    Welcome to No Calls Please!  See the project's <a href="https://github.com/dpritchett/no-calls-please">github</a> page for more information.
+    Welcome to No Calls Please!  See the project's <a href='https://github.com/dpritchett/no-calls-please'>github</a> page for more information.
     """
 end
