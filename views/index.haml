@@ -1,0 +1,20 @@
+%header
+  %h1 Welcome to No Calls Please!
+
+%h2 Call anyone:
+%form{ action: "/call", method: "post" }
+  %button{ type: 'submit' } Nooooo!
+  %input{ name: 'phone_number', placeholder: '555-555-5555' }
+
+%h3 Call me!
+%form{ action: "/callme", method: "post" }
+  %button{ type: 'submit' } Hi Daniel!
+  %input{ name: 'dummy_phone_number', placeholder: 'daniel-cell', disabled: 'true' }
+
+
+%footer
+  %em
+    See the project's
+    %a{ href: 'https://github.com/dpritchett/no-calls-please' }
+      github page
+    for more information.
