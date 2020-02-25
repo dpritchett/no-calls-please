@@ -7,7 +7,7 @@ GEM
     haml (5.0.0)
       temple (>= 0.8.0)
       tilt
-    json (1.6.5)
+    json (2.3.0)
     jwt (0.1.4)
       json (>= 1.2.4)
     method_source (0.8.2)
